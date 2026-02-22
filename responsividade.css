@@ -1,0 +1,203 @@
+@media (max-width:768px) {
+    .container{
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction: column;
+    max-width: 550px;
+    max-height: 700px;
+    padding: 50px;
+    border: none;
+    padding: 50px 30px;
+    border-radius: 20px;
+}
+
+body {
+    background:#6cb8dd;
+}
+
+    .container h2 {
+    text-align: center;
+    margin-top:5px;
+    margin-bottom: 80px 20px auto;
+    color: #ffffff;
+    font-size: 1.8em;
+}
+
+.container input[type="text"] {
+    width: 75%;
+    padding: 13px;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: auto;
+    border: 0;
+    background-color: #ffffff;
+    color: #000;
+    text-transform: capitalize;
+
+}
+
+.container input[type="text"]::placeholder{
+    color: #5e5e5e;
+    font-size: 15px;
+    font-weight: 600;
+
+
+}
+
+.dados {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    color: #fff;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: start;
+    padding: 50px 30px;
+    
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    gap:2em;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.container button { 
+    padding: 11px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    float:right;
+    transition: 0.3s ease;
+    width: 18%;
+    margin-left: 4px;
+    background: #ffffff;
+    color: #000;
+    box-shadow: 4px 4px 4px;
+}
+
+.container button:hover{
+    cursor: pointer;
+}
+
+i{
+    font-size: 18px;
+}
+
+.container #sol {
+    font-size: 30px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+p{
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.container h5 {
+    color: #ffffff;
+}
+
+
+.cidade {
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-bottom: 0 auto;
+}
+
+.graus{
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+
+.sub-p {
+    font-size: 11px;
+    color: #ffffff;
+    margin-bottom: 80px;
+}
+
+
+.tempo {
+    font-size: 11px;
+    color:  #ffffff;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+.tempe{
+    font-size: 13px;
+    text-align: center;
+}
+
+.sensacao {
+    font-size: 22px; /* Numero em °C*/
+    text-align: center;
+}
+
+.umid {
+    font-size: 13px; /*titulo*/
+    text-align: center;
+}
+
+.graus {
+    font-size: 22px; /*Numero em °C*/
+    text-align: center;
+    color: #ffffff;
+}
+
+.sensa{
+    font-size: 13px;/*titulo*/
+    text-align: center;
+}
+
+.umidade {
+    font-size: 20px; /*Numero em °C*/
+    text-align: center;
+}
+
+.dados .btn-prev {
+    width: 80vw;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    color: #140d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 13px;
+    box-shadow: 5px 5px;
+    margin-bottom: 20px;
+}
+
+.dados .btn-prev a {
+    text-decoration: none;
+    color: #6cb8dd;
+    font-size: 20px;
+}
+
+.dados .btn-prev:hover {
+    color: #6cb8dd;
+}
+
+
+}

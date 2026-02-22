@@ -1,0 +1,228 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    background-color: #6cb8dd;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width:530px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+.container h2 {
+    text-align: center;
+    font-size:2em;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.sub-p{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    color: #ffffff;
+    margin-bottom:15px;
+}
+
+
+.container #sol {
+    font-size: 30px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+.container input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    border-radius: 15px;
+    outline: none;
+    border: 0;
+    background-color: #ffffff;
+    color: #414141;
+    text-transform: capitalize;
+    box-shadow: 4px 4px #414141;
+}
+
+.container input[type="text"]::placeholder{
+    color: #5e5e5e;
+    margin-right: 15px;
+}
+
+.dados {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    gap:2em;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.container button { 
+    padding: 9px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    float:right;
+    transition: 0.3s ease;
+    width: 15%;
+    margin-right: 1px;
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 4px 4px #414141;
+}
+
+.container button:hover{
+    cursor: pointer;
+}
+
+.cidade {
+    color: #ffffff;
+    font-size: 2.1rem;
+    margin-bottom: -20px;
+}
+
+.graus{
+    font-size: 25px;
+}
+
+.sensacao {
+    font-size: 25px;
+    color:  rgb(255, 255, 255);
+}
+
+.umidade {
+    font-size: 25px;
+    color:  rgb(255, 255, 255);
+}
+
+.tempo {
+    font-size: 13px;
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 15px;
+}
+
+.tempe{
+    font-size: 13px;
+    text-align: center;
+}
+
+.sensacao {
+    font-size: 22px; /* Numero em °C*/
+    text-align: center;
+}
+
+.umid {
+    font-size: 13px; /*titulo*/
+    text-align: center;
+}
+
+.graus {
+    font-size: 22px; /*Numero em °C*/
+    text-align: center;
+    color: #ffffff;
+}
+
+.sensa{
+    font-size: 13px;/*titulo*/
+    text-align: center;
+}
+
+.umidade {
+    font-size: 20px; /*Numero em °C*/
+    text-align: center;
+}
+
+img {
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    
+}
+
+p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+h5 {
+    text-align: center;
+    margin: 15px auto;
+    font-size: 10px;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+i {
+    font-size: 20px;
+}
+
+.bi-arrow-right-circle-fill{
+    font-size: 21px;
+    color: #6cb8dd;
+}
+
+.dados .btn-prev {
+    width: 31vw;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    color: #6cb8dd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition:  0.3s ease;
+
+
+}
+
+.dados .btn-prev a {
+    text-decoration: none;
+    color: #6cb8dd;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.dados .btn-prev:hover {
+    background: #ecebeb;
+}

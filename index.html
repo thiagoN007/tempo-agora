@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="screen-orientation" content="portrait">
+    <title>Tempo Agora</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+<link rel="manifest" href="manifest.json">
+<meta name="screen-orientation" content="portrait">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <h2>Tempo agora<i id="sol" class="bi bi-sun"></i></h2>
+                <p class="sub-p">Visualize o tempo em sua cidade!</p>
+                <input type="text" id="cidade" placeholder="nome da cidade"><button onclick="buscar()"><i class="bi bi-search"></i></button>
+                <div class="dados">
+                    <p>Tempo agora em:</p>
+                    <h1 class="cidade"></h1><br>
+                    <h4 class="tempo"></h4>
+                    <div class="informacoes">
+                    <h4 class="graus"></h4>
+                    <h4 class="sensacao"></h4>
+                    <h4 class="umidade"></h4>
+                    </div>
+                    <button class="btn-prev"><a href="previsao.html">Ver previsao <i class="bi bi-cloud-drizzle-fill"></i></a></button>
+            </div>
+            
+            </div>
+        </section>
+    </main>
+    <script src="script.js" defer></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('pwabuilder-sw.js');
+    }
+    </script>
+</body>
+</html>
